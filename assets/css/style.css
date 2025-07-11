@@ -14,7 +14,7 @@ Date: July 2025
 
 /* Base Element Styles */
 body {
-  /* Add Later */
+  background-color: #f5f8ff;
 }
 
 a {
@@ -181,6 +181,7 @@ img {
   justify-content: space-between;
   flex-direction: column;
   gap: 32px;
+  background-color: #ffffff;
   overflow: hidden;
   width: 30%;
   padding: 24px;
@@ -234,4 +235,40 @@ img {
   font-family: "Inter", sans-serif;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.3);
+}
+
+#focus-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 75%;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 14px;
+  padding: 70px 150px;
+}
+
+#focus-section h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+#focus-section p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 14px;
+}
+
+#focus-section a {
+  margin-bottom: 48px;
+}
+
+#focus-section img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 48px;
 }
