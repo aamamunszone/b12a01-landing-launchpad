@@ -21,10 +21,6 @@ a {
   text-decoration: none;
 }
 
-img {
-  /* Add Later */
-}
-
 /* Utility Classes */
 .container {
   margin: 0px auto 120px;
@@ -36,6 +32,7 @@ img {
 }
 
 .cta-btn {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: bold;
@@ -57,7 +54,7 @@ img {
 
 /* Header Section */
 #header {
-  background-image: url(assets/images/backgrounds/hero-bg.png);
+  background-image: url(/assets/images/backgrounds/hero-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -336,8 +333,8 @@ label {
 }
 
 #footer h2,
-p,
-nav {
+#footer p,
+#footer nav {
   width: 40%;
   margin: auto;
 }
