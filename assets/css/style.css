@@ -91,3 +91,34 @@ img {
 }
 
 /* Stay Focused Button styles with Utility Classes */
+
+/* Main Section */
+#action-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30%;
+  width: 80%;
+  margin: auto;
+}
+
+.action-sec-desc h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.action-sec-desc p {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+}
+
+.action-sec-img {
+  max-width: 400px;
+  height: auto;
+  border: none;
+  border-radius: 48px;
+}
