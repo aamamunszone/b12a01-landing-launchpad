@@ -57,7 +57,7 @@ img {
 
 /* Header Section */
 #header {
-  background-image: url(/assets/images/backgrounds/hero-bg.png);
+  background-image: url(assets/images/backgrounds/hero-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
