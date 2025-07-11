@@ -1,5 +1,5 @@
 /* ===================================================
-ZENSO Landing Page - Main Stylesheet
+GEN-Z Landing Page - Main Stylesheet
 Description: All styles for b12a01-landing-launchpad
 Author: Abdullah Al Mamun
 Date: July 2025
@@ -23,7 +23,7 @@ a {
 
 /* Utility Classes */
 .container {
-  margin: 0px auto 120px;
+  margin: 0px auto 150px;
 }
 
 .text-center {
@@ -34,14 +34,15 @@ a {
 .cta-btn {
   display: inline-block;
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   letter-spacing: 1px;
   text-align: center;
+  align-items: center;
   cursor: pointer;
   background: linear-gradient(to right, #9403fd, #00adfe);
   color: #ffffff;
-  padding: 12px 36px;
+  padding: 14px 36px;
   border: none;
   border-radius: 10px;
   box-shadow: inset 0px 0px 10px #9403fd, 0px 4px 3px rgba(0, 0, 0, 0.3);
@@ -53,7 +54,7 @@ a {
 }
 
 /* Header Section */
-#header {
+#main-header {
   background-image: url(../images/backgrounds/hero-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -63,6 +64,7 @@ a {
 #primary-nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 80%;
   padding: 50px 0px;
   margin: 0px auto 100px;
@@ -70,7 +72,15 @@ a {
 
 .logo {
   font-family: "Inter", sans-serif;
-  font-size: 34px;
+  font-size: 42px;
+}
+
+.logo a {
+  color: #9403fd;
+}
+
+.logo span {
+  color: #4e47ff;
 }
 
 /* Sign Up Button styles with Utility Classes */
@@ -87,6 +97,18 @@ a {
   font-size: 65px;
   font-weight: bold;
   margin-bottom: 70px;
+  color: #4e47ff;
+}
+
+.banner-title span {
+  display: block;
+  margin-top: 30px;
+  color: #9403fd;
+  transition: all 1s ease-in-out;
+}
+
+.banner-title span:hover {
+  transform: rotateY(360deg) scale(1.5);
 }
 
 /* Stay Focused Button styles with Utility Classes */
@@ -104,7 +126,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-size: 42px;
   font-weight: bold;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 
 .action-sec-desc p {
@@ -128,14 +150,14 @@ a {
   border: none;
   border-radius: 24px;
   width: 75%;
-  padding: 50px 80px;
+  padding: 80px;
 }
 
 #users-sec h3 {
   font-family: "Raleway", sans-serif;
-  font-size: 38px;
+  font-size: 42px;
   font-weight: bold;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 .users {
@@ -164,9 +186,9 @@ a {
 
 #users-review h3 {
   font-family: "Raleway", sans-serif;
-  font-size: 38px;
+  font-size: 42px;
   font-weight: bold;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 .user-cards {
@@ -222,12 +244,15 @@ a {
 .user-img {
   max-width: 50px;
   height: auto;
+  border: none;
+  border-radius: 50%;
 }
 
 .user-name h5 {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 5px;
 }
 
 .user-name p {
@@ -276,7 +301,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 300px;
+  gap: 150px;
   width: 75%;
   padding: 70px 0px;
 }
@@ -292,7 +317,6 @@ a {
   flex-direction: column;
   justify-content: space-between;
   gap: 34px;
-  align-items: flex-start;
 }
 
 .email,
@@ -301,8 +325,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
-  gap: 10px;
+  gap: 15px;
 }
 
 input,
@@ -310,7 +333,6 @@ textarea {
   background-color: #ffffff;
   font-family: "Inter", sans-serif;
   font-size: 18px;
-  width: 500px;
   padding: 20px 32px;
   border: none;
   border-radius: 10px;
@@ -324,7 +346,6 @@ label {
 }
 
 .submit {
-  width: 500px;
   padding: 20px 100px;
 }
 
@@ -343,6 +364,10 @@ label {
   font-family: "Inter", sans-serif;
   font-size: 100px;
   padding: 100px 0px 8px;
+}
+
+#footer h2 a {
+  color: #9403fd;
 }
 
 #footer p {
