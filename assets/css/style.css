@@ -1,0 +1,93 @@
+/* ===================================================
+ZENSO Landing Page - Main Stylesheet
+Description: All styles for b12a01-landing-launchpad
+Author: Abdullah Al Mamun
+Date: July 2025
+=================================================== */
+
+/* Universal Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Element Styles */
+body {
+  /* Add Later */
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  /* Add Later */
+}
+
+/* Utility Classes */
+.container {
+  margin-bottom: 120px;
+}
+
+.text-center {
+  text-align: center;
+  align-items: center;
+}
+
+.cta-btn {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background: linear-gradient(to right, #9403fd, #00adfe);
+  color: #ffffff;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px #9403fd, 0px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.cta-btn:hover,
+.cta-btn:focus {
+  background: linear-gradient(to left, #9403fd, #00adfe);
+}
+
+/* Header Section */
+#header {
+  background-image: url(/assets/images/backgrounds/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Navbar Section */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 50px 0px;
+  margin: 0px auto 100px;
+}
+
+.logo {
+  font-family: "Inter", sans-serif;
+  font-size: 34px;
+}
+
+/* Sign Up Button styles with Utility Classes */
+
+/* Banner Section */
+#banner {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 150px;
+}
+
+.banner-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+
+/* Stay Focused Button styles with Utility Classes */
